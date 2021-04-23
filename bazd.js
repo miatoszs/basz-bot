@@ -1,7 +1,7 @@
 const Discord = require ('discord.js');
 const client = new Discord.Client();
 
-client.login("NzgzMzg4MjY2NjQ0NzY2NzIw.X8aBLQ.n1B_a1oNpIMXJYacYtfnfs8TD1c")
+client.login("NzgzMzg4MjY2NjQ0NzY2NzIw.X8aBLQ.n1B_a1oNpIMXJYacYtfnfs8TD1c")//TOKEN
 client.on('message', async (message) => {
   if (message.content === 'bazd' ) {
     message.guild.channels.cache.forEach
